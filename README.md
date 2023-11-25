@@ -41,6 +41,7 @@
    make -j1 V=s
 
 #这时候如果报错bash: po2lmo: command not found，八成是base没有先编译出来
+
 #可以运行以下命令先编译base，然后重新执行make -j1 V=s
 make package/feeds/luci/luci-base/compile V=s
 
