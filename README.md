@@ -1,4 +1,5 @@
 # 适用于 IPQ6000 设备的 OpenWrt 源码仓库
+  本项目fork自https://github.com/sdf8057/ipq6000
 
 ## 注意
 
