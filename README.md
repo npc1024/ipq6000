@@ -8,7 +8,7 @@
 
 ## 编译命令
 
-1. 首先装好 Linux 系统， Ubuntu 20.04 LTS
+1. 首先装好 Linux 系统， 测试 Ubuntu 22.04.3 LTS 通过
 
 2. 安装编译依赖
 
