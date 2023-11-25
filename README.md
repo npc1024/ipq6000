@@ -2,7 +2,7 @@
 
 ## 注意
 
-1. **不要用 root 用户进行编译**
+1. **不要用 root 用户进行编译**,如果非要使用root用户，请先设置环境变量export FORCE_UNSAFE_CONFIGURE=1
 2. 国内用户编译前最好准备好梯子
 3. 默认登陆IP 192.168.1.1 密码 password
 
@@ -38,7 +38,10 @@
    ```bash
    make download -j8
    make -j1 V=s
-   ```
+
+#这时候如果报错bash: po2lmo: command not found，八成是base没有先编译出来
+#可以运行以下命令先编译base，然后重新执行make -j1 V=s
+make package/feeds/luci/luci-base/compile V=s
 
 5. 二次编译：
 
